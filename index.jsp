@@ -19,7 +19,6 @@ border: none; cursor: pointer; border-radius: 4px; }
 </head>
 <body>
 <h1 id="pageTitle">HIT DevOps Final Project</h1>
-<h2>hallamadi</h2>
 <p>Team: <strong>DevopsTeam5</strong></p>
 <div class="container">
 <form method="GET" action="index.jsp">
