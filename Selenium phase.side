@@ -1,0 +1,127 @@
+{
+  "id": "dbcb6ea2-2ca1-4c3d-9a75-221434ba4202",
+  "version": "2.0",
+  "name": "Devops Final Project",
+  "url": "http://localhost:8090",
+  "tests": [{
+    "id": "5c5c8c27-8c20-418c-b70a-677639120d2a",
+    "name": "Project",
+    "commands": [{
+      "id": "04690075-b798-4f0b-a310-6a675b6a3e6b",
+      "comment": "",
+      "command": "open",
+      "target": "/Final_Project/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "321a493a-6a76-41f3-841e-a8b4189bf03e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "696x776",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb08cbb5-791f-43fe-8716-8e862dac53e1",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=pageTitle",
+      "targets": [],
+      "value": "HIT DevOps Final Project"
+    }, {
+      "id": "72fc71cd-2374-479e-9a50-1ced57bfeb95",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=hitLink",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ffa1179-a0c9-4699-b607-475656829881",
+      "comment": "",
+      "command": "click",
+      "target": "id=nameInput",
+      "targets": [
+        ["id=nameInput", "id"],
+        ["name=name", "name"],
+        ["css=#nameInput", "css:finder"],
+        ["xpath=//input[@id='nameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7241d8c-2b53-495b-b808-aab25fd83f86",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementById('nameInput').value='Tomer'",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81ff0187-b13b-4edb-8511-fa6c2d445c92",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [
+        ["id=submitBtn", "id"],
+        ["css=#submitBtn", "css:finder"],
+        ["xpath=//button[@id='submitBtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Greet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b987a09a-9d15-44db-ab0d-4d0a4506c803",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=greeting",
+      "targets": [],
+      "value": "Hello, Tomer!"
+    }, {
+      "id": "3fd9dbb0-0cb0-4aac-8ce4-c425c02bb504",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "927f15c9-e320-4d76-90b3-9f15d6660140",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "id=greeting",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f18eb379-8523-49ed-a852-2e7b3fa05923",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitLink",
+      "targets": [
+        ["id=hitLink", "id"],
+        ["css=#hitLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Visit HIT\nwebsite')]", "xpath:link"],
+        ["xpath=//a[@id='hitLink']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://www.hit.ac.il')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6740",
+      "windowTimeout": 2000
+    }, {
+      "id": "48d28e05-3d9b-4d4b-b11d-7e69c4b1eadd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6740}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "98dc26fe-6a9c-495a-a725-4fc3721fbbbe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5c5c8c27-8c20-418c-b70a-677639120d2a"]
+  }],
+  "urls": ["http://localhost:8090/"],
+  "plugins": []
+}
