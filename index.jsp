@@ -19,7 +19,7 @@ border: none; cursor: pointer; border-radius: 4px; }
 </head>
 <body>
 <h1 id="pageTitle">HIT DevOps Final Project</h1>
-<p>Team: <strong>YourTeamName</strong></p>
+<p>Team: <strong>DevopsTeam5</strong></p>
 <div class="container">
 <form method="GET" action="index.jsp">
 <label for="nameInput">Enter your name:</label><br><br>

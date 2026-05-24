@@ -2,7 +2,7 @@
   "id": "dbcb6ea2-2ca1-4c3d-9a75-221434ba4202",
   "version": "2.0",
   "name": "Devops Final Project",
-  "url": "http://localhost:8090",
+  "url": "https://afterlife-floss-skewer.ngrok-free.dev/Final_Project/",
   "tests": [{
     "id": "5c5c8c27-8c20-418c-b70a-677639120d2a",
     "name": "Project",
@@ -122,6 +122,6 @@
     "timeout": 300,
     "tests": ["5c5c8c27-8c20-418c-b70a-677639120d2a"]
   }],
-  "urls": ["http://localhost:8090/"],
+  "urls": ["http://localhost:8090/", "https://afterlife-floss-skewer.ngrok-free.dev/", "https://afterlife-floss-skewer.ngrok-free.dev/Final_Project/"],
   "plugins": []
 }
